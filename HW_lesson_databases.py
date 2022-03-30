@@ -135,6 +135,7 @@ if conn:
     #select_all_products(conn)
     #select_certain_products(conn, 100, 5)
     select_by_word(conn, "Масло")
+    conn.close()
 
 
 
